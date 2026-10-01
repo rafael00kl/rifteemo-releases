@@ -28,9 +28,9 @@ Local validation passed: 1,066 C++ tests (one pre-existing disabled test), 8 cli
 
 Actual Windows Setup and launcher EXEs were checked in isolated directories/ports with the validated development package. Setup exited successfully, and the launcher reported version 0.2.7, 767 name-deduplicated registry entries and no registry error.
 
-The actual v0.2.6 client, release helper and restart worker migrated an isolated installation to the Rifteemo package. A user deck and the old runtime were preserved; the new menu displayed Rifteemo/Fargrim and the new updater consulted the new distribution repository. Stable discovery/download was injected locally because v0.2.7 is not published yet; package bytes, old engine/helper and new runtime were genuine.
+The actual v0.2.6 client, release helper and restart worker migrated an isolated installation to the Rifteemo package. A user deck and the old runtime were preserved; the new menu displayed Rifteemo/Fargrim and the new updater consulted the new distribution repository. Stable discovery/download was injected locally because v0.2.7 had not been published at that test stage; package bytes, old engine/helper and new runtime were genuine.
 
-Interactive clean-machine WSL provisioning/UAC/reboot and browser visual acceptance are not certified by these tests. Stable distribution remains unavailable until those checks and approval are complete. The previously published v0.2.6 installation was reported working on a second notebook by its maintainer.
+Interactive clean-machine WSL provisioning/UAC/reboot and browser visual acceptance are not certified by these tests. Stable publication followed those checks and explicit approval. The previously published v0.2.6 installation was reported working on a second notebook by its maintainer.
 
 The final Windows Setup migration was also exercised using a genuine staged v0.2.6 runtime and an isolated legacy Windows configuration. Setup and launcher both exited 0; the shared user deck, old configuration, browser-profile sentinel and custom client/game ports were preserved. No user installation or shortcut was modified during verification.
 
