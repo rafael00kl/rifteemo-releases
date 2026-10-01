@@ -64,3 +64,14 @@ Checksums of all distributed files are in SHA256SUMS. Previous releases are reta
 Rifteemo began with the complete original [chorlick/alpharune](https://github.com/chorlick/alpharune) codebase. Its engine, architecture, cards, tests and tools remain the foundation; original credits and Git history are preserved. The separate [LouisCourrian/riftbound-cards](https://github.com/LouisCourrian/riftbound-cards) dataset supports card metadata, artwork and errata audits. Riftbound, its cards and artwork belong to Riot Games and the credited creators.
 
 [Public project](https://github.com/rafael00kl/rifteemo-releases) · [Private source](https://github.com/rafael00kl/rifteemo) · [Validation report](https://github.com/rafael00kl/rifteemo-releases/blob/main/REPORT-v0.2.9.md).
+
+
+## Published release acceptance
+
+Public release v0.2.9 and the private source release/tag are published. All seven uploaded asset hashes and sizes matched the validated local files before publication. Anonymous downloads of Setup, launcher, manifest and checksums were verified afterward; the genuine updater downloaded and verified the runtime archive.
+
+The real installed 0.2.8 client discovered 0.2.9, applied the public update and restarted into the new runtime. User decks, settings and cache survived; the old version remained available. Card Health returned AUDIT_READY with 787 local cards, 1,188 rows and fourteen curated issue entries. Human/human and human/ISMCTS matches both started and served the genuine Table UI after the update. A 0.2.9 client correctly reports no newer release.
+
+Actual Windows Setup 0.2.9 downloaded the public package without GitHub login, reported measured progress through 100%, resumed with preserved data and started the 0.2.9 launcher. The previous Setup 0.2.8 passed the same public-install/resume/launcher flow and installed 0.2.9, confirming that the bootstrapper does not need replacement for each game update.
+
+The previous 0.2.8 asset IDs, digests and sizes remain unchanged. This page includes postpublication acceptance; the downloadable REPORT.md remains the immutable prepublication validation checkpoint.
