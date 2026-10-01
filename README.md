@@ -4,7 +4,7 @@ An independent Riftbound game project maintained by **Fargrim**. The source rema
 
 ## Downloads
 
-**Rifteemo v0.2.7 is available.** Download Setup below for the Windows launcher and the latest validated WSL runtime.
+**Rifteemo v0.2.8 is available.** Download Setup below for the Windows launcher and the latest validated WSL runtime.
 
 - [Latest stable release](https://github.com/rafael00kl/rifteemo-releases/releases/latest)
 - [Rifteemo-Setup.exe](https://github.com/rafael00kl/rifteemo-releases/releases/latest/download/Rifteemo-Setup.exe)
@@ -12,6 +12,8 @@ An independent Riftbound game project maintained by **Fargrim**. The source rema
 - [Historical AlphaRune v0.2.6 downloads](https://github.com/rafael00kl/alpharune-releases/releases/tag/v0.2.6)
 
 ## Installation and updates
+
+For first installation, use **Rifteemo-Setup.exe**. **Rifteemo.exe** is the launcher for an existing configured installation. The new Setup displays the current stage, download percentage, elapsed time and clear success/error/restart messages.
 
 Run Setup on Windows x64. It checks Microsoft Edge, prepares Ubuntu 26.04 x86_64 in WSL and runtime prerequisites when needed, downloads the latest stable package and verifies SHA-256. WSL may request administrator permission and a restart. No GitHub login is needed for public downloads.
 
@@ -27,4 +29,4 @@ Rifteemo began with the complete codebase of [chorlick/alpharune](https://github
 
 The maintainer name is Fargrim. The GitHub account identifier appears only where required for repository/download routing.
 
-[Branding migration and validation report](REPORT-v0.2.7.md).
+[Current release validation report](REPORT-v0.2.8.md) · [Branding migration report](REPORT-v0.2.7.md).
