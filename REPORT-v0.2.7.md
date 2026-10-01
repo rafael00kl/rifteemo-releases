@@ -1,8 +1,8 @@
 # Rifteemo v0.2.7 branding migration
 
-Status: development candidate; stable merge/tag/publication require explicit approval.
+Status: **published stable release, v0.2.7**. Source merge, tag and publication were explicitly authorized after successful validation.
 
-Rifteemo is maintained by **Fargrim**. Public pages, documentation and UI use English. The original AlphaRune engine, codebase, architecture and history remain credited in [project credits](README.md#credits). No gameplay/card implementations are changed by this migration.
+Rifteemo is maintained by **Fargrim**. Public pages, documentation and UI use English. The original AlphaRune engine, codebase, architecture and history remain credited in [project credits](https://github.com/rafael00kl/rifteemo-releases#credits). No gameplay/card implementations are changed by this migration.
 
 ## Repositories
 
@@ -34,6 +34,25 @@ Interactive clean-machine WSL provisioning/UAC/reboot and browser visual accepta
 
 The final Windows Setup migration was also exercised using a genuine staged v0.2.6 runtime and an isolated legacy Windows configuration. Setup and launcher both exited 0; the shared user deck, old configuration, browser-profile sentinel and custom client/game ports were preserved. No user installation or shortcut was modified during verification.
 
-Public GitHub READMEs, the historical v0.2.6 report and release descriptions, and existing PR descriptions were translated to English. The public migration bridge clearly points to the new distribution. Existing binary/checksum assets and historical Git authorship remain immutable. No RiftRune branding was introduced.
+Public GitHub READMEs, the historical v0.2.6 report and release descriptions, and existing PR descriptions were translated to English. The public migration bridge clearly points to the new distribution. Existing binary/checksum assets and historical Git authorship remain immutable. 
 
-Work-branch checkpoint: `54aab14`. Source review: https://github.com/rafael00kl/rifteemo/pull/3.
+Stable source commit: `2f02dc0d52e2831250ff124213b58c2b66f1a80f`. Source tag: `v0.2.7`. Package hash: `efd96a31a721c2a96ab7f8a0f7d5233ac02a4d54f6e1675ca09bd5042132faaf`.
+
+## Published downloads
+
+- [Rifteemo-Setup.exe](https://github.com/rafael00kl/rifteemo-releases/releases/latest/download/Rifteemo-Setup.exe)
+- [Versioned v0.2.7 installer](https://github.com/rafael00kl/rifteemo-releases/releases/download/v0.2.7/Rifteemo-Setup.exe)
+- [Rifteemo.exe](https://github.com/rafael00kl/rifteemo-releases/releases/download/v0.2.7/Rifteemo.exe)
+- [Release assets, package and checksums](https://github.com/rafael00kl/rifteemo-releases/releases/tag/v0.2.7)
+- [Private source release](https://github.com/rafael00kl/rifteemo/releases/tag/v0.2.7)
+- [Legacy v0.2.6 update bridge](https://github.com/rafael00kl/alpharune-releases/releases/tag/v0.2.7)
+
+## Final certification
+
+The successful [PR CI run](https://github.com/rafael00kl/rifteemo/actions/runs/36810762898) validated the same Git tree as merged master. The exact merge commit was revalidated locally before packaging the Ubuntu 26.04 x86_64 stable runtime. Main-branch CI runs the same code again as an additional check.
+
+The stable package was checked through the actual Windows Setup and launcher, and through the menu and in-game HTTP page served by the real C++ engine. Both interfaces displayed Rifteemo/Fargrim. All published GitHub asset SHA-256 digests matched local files before publication.
+
+After publication, the public installer was downloaded anonymously and its hash verified. Setup downloaded the stable runtime from the primary public release and installed it successfully. The actual v0.2.6 client/updater then discovered and downloaded v0.2.7 from the legacy public endpoint without injected discovery or download, restarted the Rifteemo client, preserved a user deck and retained the previous runtime. The new client correctly queried the primary endpoint and reported no newer version. The new favicon was served successfully.
+
+Previous AlphaRune v0.2.6 assets/checksums remain immutable. No upstream push, gameplay/card implementation changes, full-project backup copies or nested auxiliary repositories were introduced. Required GitHub routing identifiers, system paths, authentic card artist names, original project credits and historical Git authorship are preserved. Active maintainer identity is Fargrim.
