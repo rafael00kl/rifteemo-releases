@@ -4,7 +4,7 @@ An independent Riftbound game project maintained by **Fargrim**. The source rema
 
 ## Downloads
 
-**Rifteemo v0.2.9 is available.** Download Setup below for the Windows launcher and the latest validated WSL runtime.
+**Rifteemo v0.2.10 is available.** Download Setup below for the Windows launcher and the latest validated WSL runtime.
 
 - [Latest stable release](https://github.com/rafael00kl/rifteemo-releases/releases/latest)
 - [Rifteemo-Setup.exe](https://github.com/rafael00kl/rifteemo-releases/releases/latest/download/Rifteemo-Setup.exe)
@@ -21,6 +21,10 @@ In the game, open Settings -> Check Game Updates -> Install Update & Restart. Fi
 
 Existing AlphaRune clients keep their original update endpoint as a migration bridge. Close the old game and run the new Rifteemo Setup once for the renamed Windows launcher and shortcuts. Existing managed WSL data is reused. Historical release assets are never overwritten.
 
+## Latest update
+
+Version 0.2.10 fixes immediate resource resolution, discard triggers and Unit destinations. The Table UI gains clearer status/Equipment indicators, persistent stack, hover zoom and larger Runes. The client gains match-end return, six clear bot difficulties and correct custom-port routing. Existing users can update from Settings without reinstalling their environment.
+
 ## Card Health
 
 Settings -> Check Card Health shows the bundled audit checkpoint, searchable categories and known issues. It distinguishes confirmed defects, fixes in this release and upstream reports that still need reproduction. This is not a live official-data fetch or whole-card gameplay certification. Audit data is versioned with the game while user decks/preferences remain preserved.
@@ -33,4 +37,4 @@ Rifteemo began with the complete codebase of [chorlick/alpharune](https://github
 
 The maintainer name is Fargrim. The GitHub account identifier appears only where required for repository/download routing.
 
-[Current release validation report](REPORT-v0.2.9.md) · [Branding migration report](REPORT-v0.2.7.md).
+[Current release validation report](REPORT-v0.2.10.md) · [Branding migration report](REPORT-v0.2.7.md).
