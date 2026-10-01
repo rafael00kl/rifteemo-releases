@@ -4,7 +4,7 @@ An independent Riftbound game project maintained by **Fargrim**. The source rema
 
 ## Downloads
 
-The Rifteemo v0.2.7 branding release is being validated and has not been published yet. Download links below become active after explicit stable publication approval.
+**Rifteemo v0.2.7 is available.** Download Setup below for the Windows launcher and the latest validated WSL runtime.
 
 - [Latest stable release](https://github.com/rafael00kl/rifteemo-releases/releases/latest)
 - [Rifteemo-Setup.exe](https://github.com/rafael00kl/rifteemo-releases/releases/latest/download/Rifteemo-Setup.exe)
