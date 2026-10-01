@@ -30,3 +30,14 @@ Rifteemo is built on the complete original [chorlick/alpharune](https://github.c
 ## Exact stable package checks before publication
 
 Actual Windows Setup passed download, resume, local stable install and corrupt-package rejection. The Windows launcher served the genuine 0.2.8 runtime and shut down correctly. The client HTML and JavaScript served from the genuine stable package also passed immediate Human/Human → Human/ISMCTS → MCTS/MCTS starts with Windows HTTP requests to the WSL engine. This complements the earlier delayed-timer regression; it does not certify every native Edge window.
+
+
+## Post-publication certification
+
+Anonymous downloads of Setup, launcher, manifest and checksums matched the validated local SHA-256 values. Stable discovery reported 0.2.8 available to 0.2.7 and no newer version to 0.2.8.
+
+The original, genuine 0.2.7 client/updater downloaded 0.2.8 from the public primary endpoint without injected discovery or download, restarted the new client and activated it successfully. A user deck, settings and cache sentinels were preserved; the previous runtime remained available. Human/Human and Human/ISMCTS matches started and served the in-game table after the public upgrade.
+
+The actual new Windows Setup was also exercised against the published 0.2.8 runtime in isolated directories; download progress, resume, stable launcher smoke and corrupt-package rejection passed. No personal installation was modified. This automated evidence does not close the separate second-notebook acceptance item or independently reproduce the additional immediate startup symptom.
+
+All previous 0.2.7 asset digests remained unchanged. The release assets and their original checksums remain immutable; this page records subsequent public-network verification.
