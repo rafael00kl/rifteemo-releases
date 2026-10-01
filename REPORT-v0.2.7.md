@@ -2,7 +2,7 @@
 
 Status: development candidate; stable merge/tag/publication require explicit approval.
 
-Rifteemo is maintained by **Fargrim**. Public pages, documentation and UI use English. The original AlphaRune engine, codebase, architecture and history remain credited in [CREDITS.md](../CREDITS.md). No gameplay/card implementations are changed by this migration.
+Rifteemo is maintained by **Fargrim**. Public pages, documentation and UI use English. The original AlphaRune engine, codebase, architecture and history remain credited in [project credits](README.md#credits). No gameplay/card implementations are changed by this migration.
 
 ## Repositories
 
