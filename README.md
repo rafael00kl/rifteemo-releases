@@ -1,10 +1,10 @@
 # Rifteemo
 
-An independent Riftbound game project maintained by **Fargrim**. The source remains private; this public repository distributes validated native Windows packages and a separate WSL compatibility package.
+An independent Riftbound game project maintained by **Fargrim**. The source remains private; this public repository distributes validated native Windows packages and preserves historical WSL compatibility releases.
 
 ## Downloads
 
-**Rifteemo v0.3.0 — Windows native port.** Download Setup below for first installation or the one-time migration from WSL.
+**Rifteemo v0.3.1 — Four-player FFA, trigger ordering and bug reports.** Download Setup below for first installation or the one-time migration from WSL.
 
 - [Latest stable release](https://github.com/rafael00kl/rifteemo-releases/releases/latest)
 - [Rifteemo-Setup.exe](https://github.com/rafael00kl/rifteemo-releases/releases/latest/download/Rifteemo-Setup.exe)
@@ -19,13 +19,13 @@ Run Setup on Windows 10/11 x64 with Microsoft Edge. It installs private Python a
 
 In the game, open Settings -> Check Game Updates -> Install Update & Restart. Finish matches and save decks first. Updates retain shared decks, configuration/cache and previous runtime versions. Developer source checkouts are protected.
 
-Existing WSL users should close the old client and any match, then run the new Rifteemo Setup once to migrate. Decks, settings, cache and the browser profile are preserved; the old WSL runtime is left intact. Later native updates use the client update flow. The release includes a separate WSL compatibility package so older clients are not offered a wrong-platform archive. Existing AlphaRune clients retain their original branding migration bridge. Historical release assets are never overwritten.
+Existing WSL users should close the old client and any match, then run the new Rifteemo Setup once to migrate. Decks, settings, cache and the browser profile are preserved; the old WSL runtime is left intact. Later native updates use the client update flow. Version 0.3.1 is native Windows only. The historical [0.3.0 WSL compatibility release](https://github.com/rafael00kl/rifteemo-releases/releases/tag/v0.3.0) remains available; migrate with Setup before subsequent native updates. Existing AlphaRune clients retain their original branding migration bridge. Historical release assets are never overwritten.
 
 Do not remove or unregister Ubuntu until any development checkout, external card dataset and local-only files inside it have been moved and verified. The native game no longer needs WSL, but removing the distribution can delete files used for development.
 
 ## Latest update
 
-Version 0.3.0 ports the shared engine, client, launcher, installer and updater to native Windows. Bundled runtime dependencies, visible Setup progress, safe WSL data migration and checked updates remove the Ubuntu installation requirement. Rules, the 787-card registry and the existing client/Table UI are retained. Previously recorded gameplay/card bugs remain separate pending work.
+Version 0.3.1 adds player-selected simultaneous trigger order, Report a Bug from the Client/Table, and local four-player Free-for-All (one human and three bots). Public protocol privacy and consistent victory-goal handling accompany the shared-engine changes. The bug-report flow prepares a reviewed ZIP, then requires GitHub login, Issue confirmation and attachment by the player. Existing PARTIAL card clauses remain pending.
 
 ## Card Health
 
@@ -38,4 +38,4 @@ Rifteemo began with the complete codebase of [chorlick/alpharune](https://github
 [LouisCourrian/riftbound-cards](https://github.com/LouisCourrian/riftbound-cards) supplies a separate auxiliary reference for card metadata, images, sets and errata. Dataset changes are reviewed and do not automatically change gameplay. Riftbound, its cards and artwork belong to Riot Games and the credited creators. Rifteemo is an independent community project.
 
 The maintainer name is Fargrim. 
-[Current release validation report](REPORT-v0.3.0.md) · [Branding migration report](REPORT-v0.2.7.md).
+[Current release validation report](REPORT-v0.3.1.md) · [Branding migration report](REPORT-v0.2.7.md).
