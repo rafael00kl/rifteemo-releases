@@ -36,3 +36,15 @@ The draft asset sizes/digests are checked before publication. Actual anonymous l
 
 Rifteemo started from the complete [chorlick/alpharune](https://github.com/chorlick/alpharune) codebase, including engine, architecture, cards, tests and tools. Original history/credits are preserved. [LouisCourrian/riftbound-cards](https://github.com/LouisCourrian/riftbound-cards) remains the separate metadata/art/errata reference.
 Riftbound/cards/artwork belong to Riot Games and credited creators. Code remains private, releases public. No push to upstream; historical release assets unchanged.
+
+## Completed public verification — October 2, 2026
+
+Anonymous Setup/manifest downloads passed SHA-256 verification. Both the new Setup 0.3.1 and the previous Setup 0.3.0 discovered and installed stable 0.3.1. Download progress reached 100%; resume preserved user files, launcher started the native client and real WebSocket actions passed in duel and four-player modes.
+The actual native client 0.3.0 downloaded 0.3.1, restarted, activated after readiness, preserved decks/settings/cache and retained the previous runtime. The new client reported up to date, Card Health AUDIT_READY, and opened four-player play with the exact UInt64 seed.
+Test isolation excluded developer tools while retaining standard Windows PowerShell. An initial incorrectly restricted test environment exercised safe rollback; the final standard-Windows public update passed.
+Historical release asset IDs, sizes and digests remain unchanged.
+
+## Development cleanup status
+
+The permanent Windows checkout, separate card dataset and toolchain are operational. All old Git objects and 342 preserved local files were rechecked; 341 retain their original hashes, with only the generated registry cache refreshed.
+Ubuntu-26.04 was removed after its data inventory. The original Ubuntu distribution remains because this existing chat is still anchored to its UNC workspace and reactivates it; final removal must continue from a chat opened in C:/Projects/Rifteemo. Unique historical patches/local data are selectively preserved outside the distribution. No Ubuntu/WSL is required to play or run the native development commands.
