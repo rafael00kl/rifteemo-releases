@@ -49,3 +49,21 @@ Rifteemo started with the complete [chorlick/alpharune](https://github.com/chorl
 The separate [LouisCourrian/riftbound-cards](https://github.com/LouisCourrian/riftbound-cards) repository supports metadata, artwork and errata audits.
 Riftbound/cards/artwork belong to Riot Games and the credited creators.
 The source remains private; this public project contains documentation and release artifacts only. No upstream push was made.
+
+## Completed public acceptance
+
+The anonymous v0.3.0 Setup and Windows manifest were downloaded and SHA-256 checked.
+The actual public Setup discovered latest stable and installed the native runtime through GitHub HTTPS,
+with developer tools excluded from runtime PATH. Visible download progress, resume with unchanged
+deck/settings/cache bytes, launcher readiness, Card Health and genuine native human/human and
+human/bot WebSocket actions passed. The installed client reports v0.3.0 as up to date and selects the native manifest.
+
+An actual managed WSL 0.2.10 client discovered the public 0.3.0 compatibility package,
+downloaded/verified it, restarted into the real 0.3.0 client and retained its previous runtime,
+deck/settings/cache bytes. Human/human and human/ISMCTS Table starts passed afterward.
+The WSL client reports up to date and advertises the separate native migration package.
+These checks used isolated installations and unused ports; the existing user's installation was not overwritten.
+
+The Windows game now runs without Ubuntu/WSL. The source workspace and external card-data repository
+still live inside WSL and must be migrated independently before unregistering that distribution.
+An independent second-notebook test remains recommended.
