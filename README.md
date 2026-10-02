@@ -1,10 +1,10 @@
 # Rifteemo
 
-An independent Riftbound game project maintained by **Fargrim**. The source remains private; this public repository distributes validated Windows/WSL packages.
+An independent Riftbound game project maintained by **Fargrim**. The source remains private; this public repository distributes validated native Windows packages and a separate WSL compatibility package.
 
 ## Downloads
 
-**Rifteemo v0.2.10 is available.** Download Setup below for the Windows launcher and the latest validated WSL runtime.
+**Rifteemo v0.3.0 — Windows native port.** Download Setup below for first installation or the one-time migration from WSL.
 
 - [Latest stable release](https://github.com/rafael00kl/rifteemo-releases/releases/latest)
 - [Rifteemo-Setup.exe](https://github.com/rafael00kl/rifteemo-releases/releases/latest/download/Rifteemo-Setup.exe)
@@ -13,17 +13,19 @@ An independent Riftbound game project maintained by **Fargrim**. The source rema
 
 ## Installation and updates
 
-For first installation, use **Rifteemo-Setup.exe**. **Rifteemo.exe** is the launcher for an existing configured installation. The new Setup displays the current stage, download percentage, elapsed time and clear success/error/restart messages.
+For first installation, use **Rifteemo-Setup.exe**. **Rifteemo.exe** is the launcher for an existing configured installation. Setup displays the current stage, download percentage, elapsed time and clear success/error messages.
 
-Run Setup on Windows x64. It checks Microsoft Edge, prepares Ubuntu 26.04 x86_64 in WSL and runtime prerequisites when needed, downloads the latest stable package and verifies SHA-256. WSL may request administrator permission and a restart. No GitHub login is needed for public downloads.
+Run Setup on Windows 10/11 x64 with Microsoft Edge. It installs private Python and the native game runtime per user, downloads the latest validated Windows package and verifies SHA-256. Ubuntu, WSL, MSYS2, compilers and global Python are not required to play. Installation normally needs no administrator access or reboot. Public downloads require no GitHub login.
 
 In the game, open Settings -> Check Game Updates -> Install Update & Restart. Finish matches and save decks first. Updates retain shared decks, configuration/cache and previous runtime versions. Developer source checkouts are protected.
 
-Existing AlphaRune clients keep their original update endpoint as a migration bridge. Close the old game and run the new Rifteemo Setup once for the renamed Windows launcher and shortcuts. Existing managed WSL data is reused. Historical release assets are never overwritten.
+Existing WSL users should close the old client and any match, then run the new Rifteemo Setup once to migrate. Decks, settings, cache and the browser profile are preserved; the old WSL runtime is left intact. Later native updates use the client update flow. The release includes a separate WSL compatibility package so older clients are not offered a wrong-platform archive. Existing AlphaRune clients retain their original branding migration bridge. Historical release assets are never overwritten.
+
+Do not remove or unregister Ubuntu until any development checkout, external card dataset and local-only files inside it have been moved and verified. The native game no longer needs WSL, but removing the distribution can delete files used for development.
 
 ## Latest update
 
-Version 0.2.10 fixes immediate resource resolution, discard triggers and Unit destinations. The Table UI gains clearer status/Equipment indicators, persistent stack, hover zoom and larger Runes. The client gains match-end return, six clear bot difficulties and correct custom-port routing. Existing users can update from Settings without reinstalling their environment.
+Version 0.3.0 ports the shared engine, client, launcher, installer and updater to native Windows. Bundled runtime dependencies, visible Setup progress, safe WSL data migration and checked updates remove the Ubuntu installation requirement. Rules, the 787-card registry and the existing client/Table UI are retained. Previously recorded gameplay/card bugs remain separate pending work.
 
 ## Card Health
 
@@ -37,4 +39,4 @@ Rifteemo began with the complete codebase of [chorlick/alpharune](https://github
 
 The maintainer name is Fargrim. The GitHub account identifier appears only where required for repository/download routing.
 
-[Current release validation report](REPORT-v0.2.10.md) · [Branding migration report](REPORT-v0.2.7.md).
+[Current release validation report](REPORT-v0.3.0.md) · [Branding migration report](REPORT-v0.2.7.md).
