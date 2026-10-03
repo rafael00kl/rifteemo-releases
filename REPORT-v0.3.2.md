@@ -92,3 +92,11 @@ engine, architecture, cards, tests and tools. Original history and credits are p
 auxiliary metadata/art reference; official current rules and errata take precedence.
 Riftbound/cards/artwork belong to Riot Games and the credited creators.
 No push to upstream.
+
+## Completed public verification — October 2, 2026
+
+Anonymous Setup/manifest downloads passed SHA-256 verification. Both Setup 0.3.2 and the previous Setup 0.3.1 discovered and installed stable 0.3.2. Download progress reached 100%; resume preserved user files, launcher started the native client and real WebSocket actions passed in duel and four-player modes.
+The actual native client 0.3.1 downloaded 0.3.2, restarted, activated after readiness, preserved decks/settings/cache and retained the previous runtime. The updated client reported up to date, Card Health AUDIT_READY, and opened four-player play with the exact UInt64 seed.
+Actual installed-package Edge checks also verified choosing P2 first in duel and P3 first in FFA4, clockwise P3/P4/P1/P2 order, all read-only battlefield candidates, random setup actions, loaded images and Current turn highlighting at 1280x800 and 1920x1080.
+Test isolation excluded developer tools while retaining standard Windows components.
+Historical release asset IDs, sizes and digests remain unchanged.
