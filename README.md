@@ -22,7 +22,7 @@ This is an informal educational/personal software experiment, not an institution
 
 Rifteemo is an **independent, unofficial project with no official connection to Riot Games**. Riftbound, League of Legends, characters, card text, artwork and associated trademarks remain the property of Riot Games and their respective owners. Original artist and upstream contributor credits must be preserved. This repository does not grant rights to third-party assets.
 
-**Requests from Riot Games:** If Riot Games requests it, the maintainer is willing to remove affected material, remove the project from GitHub or make the project repositories private without objection. This willingness does not imply that permission has already been granted.
+**Requests from Riot Games:** If Riot Games requests it, the maintainer is willing to remove affected material, remove the project from GitHub or make the project repositories private without objection.
 
 The research/hobby description is a statement of intent, **not a license or a claim of policy compliance**. Riot's [Riftbound Digital Tools Policy](https://developer.riotgames.com/docs/riftbound), [Riftbound developer policies](https://developer.riotgames.com/policies/riftbound) and [Legal Jibber Jabber](https://www.riotgames.com/en/legal) still apply. In particular, Riot restricts standalone Riftbound clients with automated rule enforcement; a free or academic label does not remove those restrictions. No authorization for Rifteemo is asserted here.
 
@@ -84,7 +84,7 @@ Rifteemo began with the complete codebase of [chorlick/alpharune](https://github
 
 [LouisCourrian/riftbound-cards](https://github.com/LouisCourrian/riftbound-cards) supplies a separate auxiliary reference for card metadata, images, sets and errata. Dataset changes are reviewed and do not automatically change gameplay. Riftbound, its cards and artwork belong to Riot Games and the credited creators. Rifteemo is an independent community project.
 
-**Requests from Riot Games:** If Riot Games requests it, the maintainer is willing to remove affected material, remove the project from GitHub or make the project repositories private without objection. This willingness does not imply that permission has already been granted.
+**Requests from Riot Games:** If Riot Games requests it, the maintainer is willing to remove affected material, remove the project from GitHub or make the project repositories private without objection.
 
 The maintainer name is Fargrim. 
 [Current release validation report](REPORT-v0.4.4.md) · [Branding migration report](REPORT-v0.2.7.md).
