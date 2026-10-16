@@ -20,7 +20,9 @@ This automation is bounded by its implemented tests and reviewed scenario famili
 
 This is an informal educational/personal software experiment, not an institutional research program or an official Riot product. There is **no plan for a commercial launch, sale or profit**: no paid access, advertisements, subscriptions or real-money cosmetic purchases. In-client Trophies and cosmetic unlocks have no monetary value or cash redemption. Existing public downloads are experimental hobby builds; their availability does not imply Riot approval.
 
-Rifteemo is **not affiliated with, endorsed by, sponsored by or approved by Riot Games**. Riftbound, League of Legends, characters, card text, artwork and associated trademarks remain the property of Riot Games and their respective owners. Original artist and upstream contributor credits must be preserved. This repository does not grant rights to third-party assets.
+Rifteemo is an **independent, unofficial project with no official connection to Riot Games**. Riftbound, League of Legends, characters, card text, artwork and associated trademarks remain the property of Riot Games and their respective owners. Original artist and upstream contributor credits must be preserved. This repository does not grant rights to third-party assets.
+
+**Requests from Riot Games:** If Riot Games requests it, the maintainer is willing to remove affected material, remove the project from GitHub or make the project repositories private without objection. This willingness does not imply that permission has already been granted.
 
 The research/hobby description is a statement of intent, **not a license or a claim of policy compliance**. Riot's [Riftbound Digital Tools Policy](https://developer.riotgames.com/docs/riftbound), [Riftbound developer policies](https://developer.riotgames.com/policies/riftbound) and [Legal Jibber Jabber](https://www.riotgames.com/en/legal) still apply. In particular, Riot restricts standalone Riftbound clients with automated rule enforcement; a free or academic label does not remove those restrictions. No authorization for Rifteemo is asserted here.
 
