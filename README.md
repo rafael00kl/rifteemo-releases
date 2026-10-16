@@ -1,6 +1,30 @@
 # Rifteemo
 
-An independent Riftbound game project maintained by **Fargrim**. The source remains private; this public repository distributes validated native Windows packages and preserves historical WSL compatibility releases.
+Rifteemo is a personal, **AI-assisted ("vibe-coded") hobby and research project** maintained by **Fargrim**. Its primary development goals are **experimental game-playing bots** and **automated software auditing, scenario generation and regression testing**. The Riftbound simulation engine and client provide the environment in which those experiments run.
+
+## Primary development goals
+
+### Bot research and local learning
+
+The Fargrim Learning loop imports compatible local match episodes, gives additional weight to human demonstrations, and generates varied games against Monte Carlo Tree Search (MCTS), the active model and historical checkpoints. It rotates decks and seats, trains a candidate, and compares it with the active bot and a fixed MCTS reference before accepting or rejecting it. Approved successors retain their own name and generation; rejected candidates leave the active model unchanged.
+
+Training is optional and runs on the owner's computer. Episodes, evaluation reports and checkpoint history persist locally across updates. A match uses fixed model weights; a later match can load a newly approved successor. More simulations or training cycles do not guarantee stronger play. This is experimentation with learned evaluation and search, not a claim of general intelligence or mastery of every rule.
+
+### Automated QA and scenario research
+
+The Card QA tools group cards by shared mechanics and code helpers, link reviewed behavioral contracts to tests, and generate variations of supported scenarios. Native regressions, deterministic replays and retained seeds/decision traces help reproduce failures and locate affected consumers. The owner-run overnight worker saves evidence and prepares review context so future fixes and audits can reuse verified work.
+
+This automation is bounded by its implemented tests and reviewed scenario families. Passing a generated scenario does not certify an entire card, and the worker does not independently interpret every rule, approve FULL certification or automatically patch the engine. Uncovered clauses and human interpretation remain explicit review work.
+
+## Hobby status, non-commercial intent and third-party rights
+
+This is an informal educational/personal software experiment, not an institutional research program or an official Riot product. There is **no plan for a commercial launch, sale or profit**: no paid access, advertisements, subscriptions or real-money cosmetic purchases. In-client Trophies and cosmetic unlocks have no monetary value or cash redemption. Existing public downloads are experimental hobby builds; their availability does not imply Riot approval.
+
+Rifteemo is **not affiliated with, endorsed by, sponsored by or approved by Riot Games**. Riftbound, League of Legends, characters, card text, artwork and associated trademarks remain the property of Riot Games and their respective owners. Original artist and upstream contributor credits must be preserved. This repository does not grant rights to third-party assets.
+
+The research/hobby description is a statement of intent, **not a license or a claim of policy compliance**. Riot's [Riftbound Digital Tools Policy](https://developer.riotgames.com/docs/riftbound), [Riftbound developer policies](https://developer.riotgames.com/policies/riftbound) and [Legal Jibber Jabber](https://www.riotgames.com/en/legal) still apply. In particular, Riot restricts standalone Riftbound clients with automated rule enforcement; a free or academic label does not remove those restrictions. No authorization for Rifteemo is asserted here.
+
+The source remains private. This public repository contains experimental Windows packages, update instructions and preserved historical compatibility releases. The development checkout has additional QA tools; availability in a particular installer is described below.
 
 ## Downloads
 
