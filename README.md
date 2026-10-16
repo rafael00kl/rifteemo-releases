@@ -84,6 +84,8 @@ Rifteemo began with the complete codebase of [chorlick/alpharune](https://github
 
 [LouisCourrian/riftbound-cards](https://github.com/LouisCourrian/riftbound-cards) supplies a separate auxiliary reference for card metadata, images, sets and errata. Dataset changes are reviewed and do not automatically change gameplay. Riftbound, its cards and artwork belong to Riot Games and the credited creators. Rifteemo is an independent community project.
 
+**Requests from Riot Games:** If Riot Games requests it, the maintainer is willing to remove affected material, remove the project from GitHub or make the project repositories private without objection. This willingness does not imply that permission has already been granted.
+
 The maintainer name is Fargrim. 
 [Current release validation report](REPORT-v0.4.4.md) · [Branding migration report](REPORT-v0.2.7.md).
 
