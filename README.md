@@ -51,6 +51,10 @@ Do not remove or unregister Ubuntu until any development checkout, external card
 
 ## Latest update
 
+Version **0.5.2** adds **Manual Play PvP** and **Manual Goldfish**. Host an independent manual two-human table, or practice locally while controlling both decks. Players resolve card text and pay Runes; the table manages structural turns, Priority, Focus and Chain. Goldfish supports both hands, acting-seat selection and save/resume without Remote Play. Automatic PvP and Fargrim remain separate. Existing installations use **Check Game Updates -> Install Update & Restart**. See the [0.5.2 validation report](REPORT-v0.5.2.md).
+
+**Retained earlier features:**
+
 Version 0.5.0 integrates 32-player MD1/MD3 tournaments, private sideboarding, progressive alternate-art prizes, persistent Rifteemo Trophies/Shop/Collection and Legend-first deck editing/Tourney import. Remote Play and private MD1 invitations share authenticated HTTPS with explicit PC approval. Portrait PWA play includes contextual actions, card drags, Rune choices, compact Might explanations and Battlefield totals. Choose saved decks in a room or bring a selected deck from your own client. See the [0.5.0 report](REPORT-v0.5.0.md).
 
 
@@ -58,9 +62,9 @@ The existing card pool includes **all 167 Radiance main-set cards**, plus the re
 
 Card Health contains 1,122 registered printings. Radiance registration and scoped shared-mechanic reviews are recorded with source/test evidence; the expansion is **not fully certified clause by clause**. Historical reviews are preserved, and changed shared dependencies remain visible for revalidation. Known reports and the remaining audit are not declared finished.
 
-The client displays **only the current approved bot's exact name and generation**. New installations receive **Amber Compass (13)**. An existing private active checkpoint and training lineage take precedence; later locally approved successors appear by their own names in new matches, without resetting the client or a match in progress. Internal Normal/MCTS 150 and Original agents remain available to training and test tools.
+The client displays **only the current approved bot's exact name and generation**. New installations receive the approved **Iron Fox (28)** inference fallback. An existing private active checkpoint and training lineage take precedence; later locally approved successors appear by their own names in new matches, without resetting the client or a match in progress. Internal Normal/MCTS 150 and Original agents remain available to training and test tools.
 
-Run **Fargrim-Learning.cmd** in the installed active runtime folder to start, inspect, stop or resume the local learning loop. Default path: %LOCALAPPDATA%\Rifteemo\runtime\versions\0.5.0\Fargrim-Learning.cmd. Stop training safely and restart it after updating to load the current trainer. Episodes, optimizer, approved checkpoints and succession history persist. Only portable approved weights are distributed; private training records are not uploaded.
+Run **Fargrim-Learning.cmd** in the installed active runtime folder to start, inspect, stop or resume the local learning loop. Default path: %LOCALAPPDATA%\Rifteemo\runtime\versions\0.5.2\Fargrim-Learning.cmd. Stop training safely and restart it after updating to load the current trainer. Episodes, optimizer, approved checkpoints and succession history persist. Only portable approved weights are distributed; private training records are not uploaded.
 
 The loop imports eligible records, prioritizes human decisions, generates varied duels, trains a candidate and evaluates it against the active checkpoint and Normal/MCTS before approval or rejection. It keeps the active model when a candidate fails the gates. An approved successor receives a name and generation number; episodes, lineage and approved checkpoints survive game updates. There is no guarantee of improvement in every cycle.
 
@@ -90,5 +94,5 @@ Rifteemo began with the complete codebase of [chorlick/alpharune](https://github
 **Requests from Riot Games:** If Riot Games requests it, the maintainer is willing to remove affected material, remove the project from GitHub or make the project repositories private without objection.
 
 The maintainer name is Fargrim. 
-[Current release validation report](REPORT-v0.5.0.md) · [Branding migration report](REPORT-v0.2.7.md).
+[Current release validation report](REPORT-v0.5.2.md) · [Branding migration report](REPORT-v0.2.7.md).
 
